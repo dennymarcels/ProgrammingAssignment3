@@ -49,4 +49,4 @@ tBodyGyroJerkMean
 
 This script:
 
-This script merges train and test data, selects mean and std values for the features, relabels activity and features names to improve comprehensibility, and summarizes all remaining variables by mean, grouped by subject and activity. The result is stores in the object sumdata. Additional information is given in README.md.
+This script merges train and test data, selects mean and std values for the features, relabels activity and features names to improve comprehensibility, and summarizes all remaining variables by mean, grouped by subject and activity. The result is stored in the file summary.txt. Additional information is given in README.md.

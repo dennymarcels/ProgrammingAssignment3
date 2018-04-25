@@ -51,3 +51,4 @@ colnames(data1) <- colnames
 
 library(dplyr)
 data1 %>% group_by(Subject, Activity) %>% summarize_all(mean) -> sumdata
+write.table(sumdata, "summary.txt", row.name=FALSE)
